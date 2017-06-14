@@ -3,7 +3,8 @@
 *********************/
 
 * {
-	box-sizing: border-box;
+	-webkit-box-sizing: border-box;
+	        box-sizing: border-box;
 }
 
 body {
@@ -54,7 +55,7 @@ figcaption {
 	padding: 1em;
 	background-color: #0087ce;
 	color: white;
-	
+
 	position: absolute;
 	bottom: 0;
 	width: 100%;
@@ -105,7 +106,8 @@ figure {
 	position: fixed;
 	background-color: white;
 	width: 100%;
-	box-shadow: 0 1px 4px rgba(0, 0, 0, 0.4);
+	-webkit-box-shadow: 0 1px 4px rgba(0, 0, 0, 0.4);
+	        box-shadow: 0 1px 4px rgba(0, 0, 0, 0.4);
 	z-index: 1000;
 	padding-top: 0.5em;
 	padding-bottom: 0.5em;
@@ -118,7 +120,7 @@ figure {
 }
 
 .banner {
-	color: white; 
+	color: white;
 	background-color: #0087ce;
 	padding: 3em 0;
 	margin-bottom: 60px;
@@ -196,7 +198,7 @@ figure {
 		display: inline-block;
 		padding: 10px;
 	}
-	
+
 	.main-nav a {
 		color: #0087ce;
 		text-transform: uppercase;
